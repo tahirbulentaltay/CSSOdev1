@@ -1,20 +1,51 @@
 body {
     background-color: aqua;
 }
-/*header ortalı*/
+
 h1 {
     color: brown;
     text-align: center;
+    font-size: 60px;
 }
 
-nav {
-    font-weight: bold;
+.nav {
+    list-style-type: none;
     text-align: center;
-    text-decoration:underline;
+    background-color:blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
 }
 
 .cerceveli {
     border: 2px solid red;
     border-radius: 10px;
     padding: 5px;
+}
+
+ul {
+    color: green;
+    font-weight: bold;
+}
+
+p {
+
+    font-size: 20px;
+}
+
+h3 {
+    color: brown;
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-20 {
+    font-size: 20px;
 }
